@@ -20,6 +20,7 @@ class _LoginState extends State<Login> {
 
   Future<void> buttonLoginPressed() async {
     NaverLoginResult res = await FlutterNaverLogin.logIn();
+    print("good!");
     setState(() {
       name = res.account.nickname;
       isLogin = true;

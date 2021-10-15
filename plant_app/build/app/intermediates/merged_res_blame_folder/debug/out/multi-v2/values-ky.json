@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml",
+            "outputFile": "/Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ky/values-ky.xml",
             "map": [
                 {
                     "source": "/Users/jangjinhyeog/.gradle/caches/transforms-2/files-2.1/e31537fb3ca3accaea0d4d9ddb9631cc/jetified-play-services-basement-17.0.0/res/values-ky/values.xml",

@@ -12,29 +12,29 @@
 12         to allow setting breakpoints, to provide hot reload, etc.
 13    -->
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/debug/AndroidManifest.xml:6:5-66
-14-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/debug/AndroidManifest.xml:6:22-64
+14-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/debug/AndroidManifest.xml:6:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
-15-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+15-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+15-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
 16    <uses-permission android:name="android.permission.WAKE_LOCK" />
-16-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
-16-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
+16-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-68
+16-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-65
 17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-17-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
-17-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+17-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+17-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
 18
 19    <queries>
-19-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:15
+19-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-15:15
 20        <intent>
-20-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:18
+20-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:18
 21            <action android:name="android.intent.action.GET_CONTENT" />
-21-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-72
-21-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:21-69
+21-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-72
+21-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:21-69
 22
 23            <data android:mimeType="*/*" />
-23-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-44
-23-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-41
+23-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-44
+23-->[:file_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:19-41
 24        </intent>
 25    </queries>
 26
@@ -43,28 +43,28 @@
 27-->[com.google.android.gms:play-services-measurement:19.0.1] /Users/jangjinhyeog/.gradle/caches/transforms-2/files-2.1/df3f69fd7600987b904c6335e6ca0b86/jetified-play-services-measurement-19.0.1/AndroidManifest.xml:26:22-107
 28
 29    <application
-29-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:3:4-40:19
+29-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:3:4-40:19
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 30-->[androidx.core:core:1.1.0] /Users/jangjinhyeog/.gradle/caches/transforms-2/files-2.1/3c8fd1bfddb99a7a7e21faa1397acdb4/core-1.1.0/AndroidManifest.xml:24:18-86
 31        android:debuggable="true"
 32        android:icon="@mipmap/ic_launcher"
-32-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:5:9-43
+32-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:5:9-43
 33        android:label="plant_app" >
-33-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:4:9-34
+33-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:4:9-34
 34        <activity
-34-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:6:9-34:20
+34-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:6:9-34:20
 35            android:name="com.example.plant_app.MainActivity"
-35-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:7:13-41
+35-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:7:13-41
 36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-36-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:10:13-163
+36-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:10:13-163
 37            android:hardwareAccelerated="true"
-37-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:11:13-47
+37-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:11:13-47
 38            android:launchMode="singleTop"
-38-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:8:13-43
+38-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:8:13-43
 39            android:theme="@style/LaunchTheme"
-39-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:9:13-47
+39-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:9:13-47
 40            android:windowSoftInputMode="adjustResize" >
-40-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:12:13-55
+40-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:12:13-55
 41
 42            <!--
 43                 Specifies an Android theme to apply to this Activity as soon as
@@ -73,11 +73,11 @@
 46                 to determine the Window background behind the Flutter UI.
 47            -->
 48            <meta-data
-48-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:17:13-20:17
+48-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:17:13-20:17
 49                android:name="io.flutter.embedding.android.NormalTheme"
-49-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:18:15-70
+49-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:18:15-70
 50                android:resource="@style/NormalTheme" />
-50-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:19:15-52
+50-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:19:15-52
 51            <!--
 52                 Displays an Android View that continues showing the launch screen
 53                 Drawable until Flutter paints its first frame, then this splash
@@ -86,21 +86,21 @@
 56                 Flutter's first frame.
 57            -->
 58            <meta-data
-58-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:26:13-29:17
+58-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:26:13-29:17
 59                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-59-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:27:15-79
+59-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:27:15-79
 60                android:resource="@drawable/launch_background" />
-60-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:28:15-61
+60-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:28:15-61
 61
 62            <intent-filter>
-62-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:30:13-33:29
+62-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:30:13-33:29
 63                <action android:name="android.intent.action.MAIN" />
-63-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:31:17-68
-63-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:31:25-66
+63-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:31:17-68
+63-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:31:25-66
 64
 65                <category android:name="android.intent.category.LAUNCHER" />
-65-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:32:17-76
-65-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:32:27-74
+65-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:32:17-76
+65-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:32:27-74
 66            </intent-filter>
 67        </activity>
 68        <!--
@@ -108,44 +108,44 @@
 70             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 71        -->
 72        <meta-data
-72-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:37:9-39:33
+72-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:37:9-39:33
 73            android:name="flutterEmbedding"
-73-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:38:13-44
+73-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:38:13-44
 74            android:value="2" />
-74-->/Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/android/app/src/main/AndroidManifest.xml:39:13-30
+74-->/Users/jangjinhyeog/Downloads/flutter_project/plant_app/android/app/src/main/AndroidManifest.xml:39:13-30
 75
 76        <service
-76-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
+76-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-16:19
 77            android:name="com.google.firebase.components.ComponentDiscoveryService"
-77-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:18-89
+77-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:12:18-89
 78            android:directBootAware="true"
 78-->[com.google.firebase:firebase-common:20.0.0] /Users/jangjinhyeog/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
 79            android:exported="false" >
 79-->[com.google.firebase:firebase-storage:20.0.0] /Users/jangjinhyeog/.gradle/caches/transforms-2/files-2.1/aac17191751d9819c4ba4efa4c4713d8/jetified-firebase-storage-20.0.0/AndroidManifest.xml:32:13-37
 80            <meta-data
-80-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
+80-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:85
 81                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
-81-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-127
+81-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-127
 82                android:value="com.google.firebase.components.ComponentRegistrar" />
-82-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
+82-->[:firebase_analytics] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_analytics/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-82
 83            <meta-data
-83-->[:firebase_database] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+83-->[:firebase_database] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 84                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
-84-->[:firebase_database] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
+84-->[:firebase_database] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-127
 85                android:value="com.google.firebase.components.ComponentRegistrar" />
-85-->[:firebase_database] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+85-->[:firebase_database] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_database/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 86            <meta-data
-86-->[:firebase_storage] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+86-->[:firebase_storage] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 87                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-87-->[:firebase_storage] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+87-->[:firebase_storage] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
 88                android:value="com.google.firebase.components.ComponentRegistrar" />
-88-->[:firebase_storage] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+88-->[:firebase_storage] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 89            <meta-data
-89-->[:firebase_core] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+89-->[:firebase_core] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 90                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-90-->[:firebase_core] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+90-->[:firebase_core] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
 91                android:value="com.google.firebase.components.ComponentRegistrar" />
-91-->[:firebase_core] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+91-->[:firebase_core] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 92            <meta-data
 92-->[com.google.firebase:firebase-storage:20.0.0] /Users/jangjinhyeog/.gradle/caches/transforms-2/files-2.1/aac17191751d9819c4ba4efa4c4713d8/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
 93                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
@@ -173,21 +173,21 @@
 104        </service>
 105
 106        <provider
-106-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+106-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
 107            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-107-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+107-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
 108            android:authorities="com.example.plant_app.flutter.image_provider"
-108-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+108-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
 109            android:exported="false"
-109-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+109-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
 110            android:grantUriPermissions="true" >
-110-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+110-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
 111            <meta-data
-111-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+111-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
 112                android:name="android.support.FILE_PROVIDER_PATHS"
-112-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+112-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
 113                android:resource="@xml/flutter_image_picker_file_paths" />
-113-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/FlutterEx-main/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+113-->[:image_picker] /Users/jangjinhyeog/Downloads/flutter_project/plant_app/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
 114        </provider>
 115        <provider
 115-->[com.google.firebase:firebase-common:20.0.0] /Users/jangjinhyeog/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39

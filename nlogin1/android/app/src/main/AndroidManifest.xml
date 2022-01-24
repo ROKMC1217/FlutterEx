@@ -11,7 +11,7 @@
             android:value="Rz5Co8il9e" />
          <meta-data
             android:name="com.naver.sdk.clientName"
-            android:value="sns_로그인" />
+            android:value="네이버로그인" />
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

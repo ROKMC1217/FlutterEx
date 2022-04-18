@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/onofflab/rentit/BuildConfig.java
+ com.onofflab.rentit.BuildConfig

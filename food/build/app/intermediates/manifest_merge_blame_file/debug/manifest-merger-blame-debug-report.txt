@@ -1,0 +1,151 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.onofflab.rentit"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/hyungtaekim/food/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/hyungtaekim/food/android/app/src/debug/AndroidManifest.xml:6:22-64
+15
+16    <uses-feature
+16-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:11:5-13:35
+17        android:glEsVersion="0x00020000"
+17-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:12:9-41
+18        android:required="true" />
+18-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:13:9-32
+19    <uses-feature
+19-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:14:5-16:36
+20        android:name="android.hardware.wifi"
+20-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:15:9-45
+21        android:required="false" />
+21-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:16:9-33
+22
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:19:5-79
+23-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:19:22-76
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:20:5-76
+24-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:20:22-73
+25
+26    <application
+27        android:name="android.app.Application"
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.6.0] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+31        android:label="food"
+32        android:usesCleartextTraffic="true" >
+33
+34        <!-- 네이버 지도 start -->
+35        <meta-data
+36            android:name="com.naver.maps.map.CLIENT_ID"
+37            android:value="9qtnrpiaqs" />
+38        <!-- 네이버 지도 end -->
+39        <activity
+40            android:name="com.onofflab.rentit.MainActivity"
+41            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+42            android:exported="true"
+43            android:hardwareAccelerated="true"
+44            android:launchMode="singleTop"
+45            android:theme="@style/LaunchTheme"
+46            android:windowSoftInputMode="adjustResize" >
+47
+48            <!--
+49                 Specifies an Android theme to apply to this Activity as soon as
+50                 the Android process has started. This theme is visible to the user
+51                 while the Flutter UI initializes. After that, this theme continues
+52                 to determine the Window background behind the Flutter UI.
+53            -->
+54            <meta-data
+55                android:name="io.flutter.embedding.android.NormalTheme"
+56                android:resource="@style/NormalTheme" />
+57
+58            <intent-filter>
+59                <action android:name="android.intent.action.MAIN" />
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+62
+63                <action android:name="android.intent.action.SEND" />
+64
+65                <category android:name="android.intent.category.DEFAULT" />
+66
+67                <data android:mimeType="text/plain" />
+68            </intent-filter>
+69        </activity>
+70        <!--
+71             Don't delete the meta-data below.
+72             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+73        -->
+74        <meta-data
+75            android:name="flutterEmbedding"
+76            android:value="2" />
+77
+78        <uses-library
+78-->[androidx.window:window:1.0.0-beta04] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+79            android:name="androidx.window.extensions"
+79-->[androidx.window:window:1.0.0-beta04] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+80            android:required="false" />
+80-->[androidx.window:window:1.0.0-beta04] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+81        <uses-library
+81-->[androidx.window:window:1.0.0-beta04] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+82            android:name="androidx.window.sidecar"
+82-->[androidx.window:window:1.0.0-beta04] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+83            android:required="false" />
+83-->[androidx.window:window:1.0.0-beta04] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+84
+85        <activity
+85-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:23:9-27:51
+86            android:name="com.naver.maps.map.app.LegendActivity"
+86-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:24:13-65
+87            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+87-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:25:13-91
+88            android:label="@string/navermap_legend"
+88-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:26:13-52
+89            android:theme="@style/navermap_app" />
+89-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:27:13-48
+90        <activity
+90-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:28:9-32:51
+91            android:name="com.naver.maps.map.app.LegalNoticeActivity"
+91-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:29:13-70
+92            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+92-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:30:13-91
+93            android:label="@string/navermap_legal_notice"
+93-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:31:13-58
+94            android:theme="@style/navermap_app" />
+94-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:32:13-48
+95        <activity
+95-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:33:9-37:51
+96            android:name="com.naver.maps.map.app.OpenSourceLicenseActivity"
+96-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:34:13-76
+97            android:configChanges="screenSize|smallestScreenSize|screenLayout|orientation"
+97-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:35:13-91
+98            android:label="@string/navermap_open_source_license"
+98-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:36:13-65
+99            android:theme="@style/navermap_app" />
+99-->[com.naver.maps:map-sdk:3.9.1] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/e47f44b0ffcd325d04acfca3372e54b3/jetified-map-sdk-3.9.1/AndroidManifest.xml:37:13-48
+100        <activity
+100-->[com.google.android.gms:play-services-base:17.5.0] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/f20d70d6f8b054908300702d9bad90ec/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:17.5.0] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/f20d70d6f8b054908300702d9bad90ec/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:17.5.0] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/f20d70d6f8b054908300702d9bad90ec/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:17.5.0] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/f20d70d6f8b054908300702d9bad90ec/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+104
+105        <meta-data
+105-->[com.google.android.gms:play-services-basement:17.5.0] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/cc4aceca9e8a620a1825617d9e300480/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+106            android:name="com.google.android.gms.version"
+106-->[com.google.android.gms:play-services-basement:17.5.0] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/cc4aceca9e8a620a1825617d9e300480/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+107            android:value="@integer/google_play_services_version" />
+107-->[com.google.android.gms:play-services-basement:17.5.0] /Users/hyungtaekim/.gradle/caches/transforms-2/files-2.1/cc4aceca9e8a620a1825617d9e300480/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+108    </application>
+109
+110</manifest>
